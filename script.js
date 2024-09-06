@@ -7,23 +7,24 @@ const perguntas
 
 {
 
-enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+enunciado: "Qual é o Impacto da fotossíntese na atmosfera terrestre?",
 
-alternativas: [
-
+alternativas: [A fotossíntese é um processo vital realizado por plantas, algas e algumas bactérias, onde a luz solar é convertida em energia química. Durante a fotossíntese, o dióxido de carbono é absorvido e o oxigênio é liberado.
+fotossíntese ajuda a reduzir a concentração de dióxido de carbono na atmosfera, mitigando os efeitos das mudanças climáticas.
 {
 
-texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+  
+texto: ".",
 
 afirmacao: "afirmacaol"
 
-texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+texto: "A fotossíntese é um processo vital realizado por plantas, algas e algumas bactérias, onde a luz solar é convertida em energia química. Durante a fotossíntese, o dióxido de carbono é absorvido e o oxigênio é liberado. .",
 
-afirmacao: "afirmacao2"
+afirmacao: "A fotossíntese ocorre principalmente nas folhas das plantas, onde os cloroplastos contêm a clorofila, o pigmento responsável por absorver a luz solar."
 
 1
 
-enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o r?",
 
 alternativas: [
 
