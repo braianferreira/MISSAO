@@ -58,4 +58,52 @@ texto: "Promovendo a instalação de painéis solares em escolas e centros comun
 ];
 
 }
+let atual = 0;
+
+let perguntaAtual;
+
+let historiaFinal = "";
+
+function mostraPergunta() { if (atual > perguntas.length) {
+
+mostraResultado();
+
+return; I
+
+perguntaAtual perguntas (atual);
+
+caixaPerguntas.textContent perguntaAtual.enunciado;
+
+caixaAlternativas.textContent
+
+textoResultado.textContent
+
+mostraAlternativas();
+
+}
+
+function mostraAlternativas () {
+
+for (const alternativa of perguntaAtual.alternativas) { const botaoAlternativa document.createElement("button"); botaoAlternativa.textContent alternativa.texto; botaoAlternativa.addEventListener("click", ()=> resposta Selecionada (alternativa));
+
+caixaAlternativas.appendChild (botaoAlternativa);
+
+function respostaSelecionada (opcaoSelecionada) {
+
+const afirmacao opcaoSelecionada.afirmacao; historiaFinal + afirmacao +"";
+
+atual++
+
+mostraPergunta();
+
+function mostraResultado () {
+
+caixaPerguntas.textContent "Resumindo..."; textoResultado.textContent historiaFinal;
+
+caixaAlternativas.textContent
+
+mostraPergunta();
+
+}
+
 
